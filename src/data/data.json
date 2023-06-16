@@ -1,0 +1,51 @@
+{
+    "current": {
+      "air_quality": {
+        "co": 474,
+        "gb-defra-index": 3,
+        "no2": 12.300000190734863,
+        "o3": 66.5,
+        "pm10": 51.099998474121094,
+        "pm2_5": 25.299999237060547,
+        "so2": 9.699999809265137,
+        "us-epa-index": 2
+      },
+      "cloud": 25,
+      "condition": {
+        "code": 1030,
+        "icon": "//cdn.weatherapi.com/weather/64x64/night/143.png",
+        "text": "Mist"
+      },
+      "feelslike_c": 34.8,
+      "feelslike_f": 94.6,
+      "gust_kph": 32.8,
+      "gust_mph": 20.4,
+      "humidity": 33,
+      "is_day": 0,
+      "last_updated": "2023-06-14 00:15",
+      "last_updated_epoch": 1686681900,
+      "precip_in": 0,
+      "precip_mm": 0,
+      "pressure_in": 29.53,
+      "pressure_mb": 1000,
+      "temp_c": 36,
+      "temp_f": 96.8,
+      "uv": 1,
+      "vis_km": 3,
+      "vis_miles": 1,
+      "wind_degree": 300,
+      "wind_dir": "WNW",
+      "wind_kph": 9,
+      "wind_mph": 5.6
+    },
+    "location": {
+      "country": "India",
+      "lat": 28.7,
+      "localtime": "2023-06-14 0:19",
+      "localtime_epoch": 1686682170,
+      "lon": 77.1,
+      "name": "Nangloi Jat",
+      "region": "Delhi",
+      "tz_id": "Asia/Kolkata"
+    }
+  }
