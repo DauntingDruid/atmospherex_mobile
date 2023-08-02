@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, ImageBackground } from 'react-native';
 import image from '../assets/images/partly_cloudy_day_116.png'
 import { getCurrentWeather } from '../api/weatherApi';
 import dummyData from '../data/data.json';
+import SearchBar from '../components/searchBar';
 
 const HomeScreen = () => {
   const [lat, setLat] = useState('');
@@ -18,9 +19,10 @@ const HomeScreen = () => {
 
   return (
     <ImageBackground source={image} resizeMode="cover" style={styles.container}>
-      <Text style={styles.title}>{weatherData?.location?.country}</Text>
+      <SearchBar />
+      {/* <Text style={styles.title}>{weatherData?.location?.country}</Text>
       <Text style={styles.subtitle}>{weatherData?.current?.temp_c}°C</Text>
-      <Text>{weatherData?.current?.condition.text}</Text>
+      <Text>{weatherData?.current?.condition.text}</Text> */}
     </ImageBackground>
   );
 };
